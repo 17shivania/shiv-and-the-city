@@ -606,7 +606,7 @@ footer { padding: 2.2rem 0; }
         + '<span class="p-arr">↗</span></a>';
     }).join("");
     var c=document.getElementById("posts"); c.innerHTML=html; c.classList.add("in");
-    var n=document.getElementById("feedNote"); n.textContent="Live from Substack — updates when Shivani posts.";
+    var n=document.getElementById("feedNote"); if(n) n.remove();
   }
   tryFetch(0);
 })();
