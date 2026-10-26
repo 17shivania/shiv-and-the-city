@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/substack-feed",
+      "destination": "https://shivaniawasthi.substack.com/feed"
+    }
+  ]
+}
